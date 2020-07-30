@@ -12,7 +12,10 @@
               yang dapat membuat sofa tidak nyaman dapat kami bersihkan.
               Serahkan pada kami!
             </p>
-            <a href="javascript:void(0)" class="button-w3ls active mt-5">
+            <a
+              href="https://api.whatsapp.com/send?phone=628570444441&text=Halo%20Fourbee%20Laundry.\n%20Saya%20ingin%20cuci%20sofa%20bersih"
+              class="button-w3ls active mt-5"
+            >
               Panggil Kami
               <span class="fa fa-caret-right ml-1" aria-hidden="true"></span>
             </a>
@@ -29,7 +32,10 @@
               AWAS! Springbed anda memang terlihat bersih, tapi yakinkah anda
               jika Springbed anda aman dari tungau ?
             </p>
-            <a href="javascript:void(0)" class="button-w3ls active mt-5">
+            <a
+              href="https://api.whatsapp.com/send?phone=628570444441&text=Halo%20Fourbee%20Laundry.\n%20Saya%20ingin%20laundry%20springbed%20bebas%20tungau"
+              class="button-w3ls active mt-5"
+            >
               Panggil Kami
               <span class="fa fa-caret-right ml-1" aria-hidden="true"></span>
             </a>

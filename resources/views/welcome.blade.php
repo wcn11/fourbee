@@ -28,7 +28,7 @@
       Fourbee Laundry: Gratis antar jemput pakaian! Klik WhatsApp Kami
     </title>
     <link rel="canonical">
-    <link href="{{ mix('index.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/index.css') }}" rel="stylesheet">
 
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Karla|Merriweather:400,700">
@@ -133,7 +133,7 @@
         </div> --}}
         
 
-<script src="{{ asset('index.js') }}" defer></script>
+<script src="{{ asset('js/index.js') }}" defer></script>
 
 <script>
     window.Studio = @json($scripts);

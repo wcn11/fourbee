@@ -43,5 +43,5 @@ Route::namespace('Studio')->prefix(config('studio.path'))->group(function () {
     Route::get('/article/{view?}', 'ViewController')->where('view', '(.*)')->name('studio');
 });
 
-// Route::post("/login", "Auth\LoginController@doLogin");
+Route::get("/customers", "CustomersController@index");
 Route::post("/logout", "Auth\LoginController@logout");

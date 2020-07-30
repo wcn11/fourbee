@@ -57,7 +57,6 @@ class PostController extends BaseController
             'posts' => $posts,
         ]);
     }
-
     /**
      * Show a given post.
      *
