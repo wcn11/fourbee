@@ -8,7 +8,7 @@ class Customer extends Model
 {
     
     protected $fillable = [
-        'name', 'no_telp', 'alamat', 
+        'nama', 'no_telp', 'alamat', 
     ];
 
     protected $guard = [];

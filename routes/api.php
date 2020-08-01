@@ -44,4 +44,6 @@ Route::namespace('Studio')->prefix(config('studio.path'))->group(function () {
 });
 
 Route::get("/customers", "CustomersController@index");
+Route::post("/customers", "CustomersController@store");
+Route::put("/customers", "CustomersController@update");
 Route::post("/logout", "Auth\LoginController@logout");

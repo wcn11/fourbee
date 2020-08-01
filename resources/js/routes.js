@@ -74,6 +74,11 @@ export default [
         name: "post",
         component: require("./studio/screens/PostScreen").default
     },
+    {
+        path: "/customers",
+        name: "customers",
+        component: require("./components/Customers.vue").default
+    },
     // {
     //     path: "/login",
     //     name: "Login",
