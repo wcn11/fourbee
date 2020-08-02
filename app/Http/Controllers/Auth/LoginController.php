@@ -48,7 +48,6 @@ class LoginController extends Base
             $response = [
                 'success' => true,
             ];
-            // $response =  $this->authenticated($request, auth()->user());
             
         return response()->json($response);
         }else{

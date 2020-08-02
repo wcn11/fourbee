@@ -69,6 +69,24 @@ class CustomersController extends Controller
         
     }
 
+    public function destroy($id){
+        if($this->isAuthenticated()){
+
+            $r = $this->request;
+
+            $cs = $this->cs->find($r->id);
+
+            $customer = $cs->delete();
+            
+            return response()->json([
+                'success' => true,
+                'data' => $customer
+            ]);
+        }
+        return $this->isNotAuthenticated();
+        
+    }
+
     protected function isAuthenticated(){
         return Auth::check();
     }
